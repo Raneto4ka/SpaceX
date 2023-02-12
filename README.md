@@ -1,4 +1,7 @@
-# space_x--vue3
+# Сайт о запусках SpaceX
+
+SPA построено на базе VUE3, для получения данных используется API https://github.com/r-spacex/SpaceX-API, подключены тесты Jest
+
 
 ## Project setup
 ```
