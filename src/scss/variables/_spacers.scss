@@ -1,0 +1,36 @@
+/* Переменные для отступов */
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * 0.25),  // 4
+  2: ($spacer * 0.5),   // 8
+  3: ($spacer * 0.75),  // 12
+  4: $spacer,           // 16
+  5: ($spacer * 1.25),  // 20
+  6: ($spacer * 1.5),   // 24
+  7: ($spacer * 1.75),  // 28
+  8: ($spacer * 2),     // 32
+  12: ($spacer * 3),    // 48
+  15: ($spacer * 3.75), // 60
+  20: ($spacer * 5),    // 80
+  25: ($spacer * 6.25), // 100
+  30: ($spacer * 7.5),  // 120
+  45: ($spacer * 11.25) // 180
+);
+
+$spacing-0: map_get($spacers, 0);  // 0px
+$spacing-1: map_get($spacers, 1);  // 4px
+$spacing-2: map_get($spacers, 2);  // 8px
+$spacing-3: map_get($spacers, 3);  // 12px
+$spacing-4: map_get($spacers, 4);  // 16px
+$spacing-5: map-get($spacers, 5);  // 20px
+$spacing-6: map_get($spacers, 6);  // 24px
+$spacing-7: map_get($spacers, 7);  // 28px
+$spacing-8: map_get($spacers, 8);  // 32px
+$spacing-12: map_get($spacers, 12); // 48px
+$spacing-15: map_get($spacers, 15); // 60px
+$spacing-20: map_get($spacers, 20); // 80px
+$spacing-25: map_get($spacers, 25); // 100px
+$spacing-30: map_get($spacers, 30); // 120px
+$spacing-45: map_get($spacers, 45); // 180px

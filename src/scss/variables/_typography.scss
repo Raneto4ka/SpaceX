@@ -1,0 +1,54 @@
+/* Шрифты */
+$font-family: 'Open Sans', arial, sans-serif;
+
+$font-size-text: 16px;
+$font-size-text-lg: 19px;
+
+$font-size-text-header: 24px;
+$font-size-text-big: 48px;
+$font-size-text-big-lg: 64px;
+$font-size-text-small: 14px;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-semi-bold: 500;
+$font-weight-bold: 700;
+
+.h1 {
+    font-weight: $font-weight-bold;
+    font-size: 4rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+
+.h2 {
+    font-weight: $font-weight-semi-bold;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.h3 {
+    font-weight: $font-weight-regular;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    font-weight: $font-weight-semi-bold;
+}
+
+.biggest {
+    font-weight: $font-weight-semi-bold;
+    font-size: $font-size-text-big;
+    line-height: 1;
+
+    @media (min-width: 768px) {
+        font-size: $font-size-text-big-lg;
+    }
+}
+
+.smallest {
+    font-size: $font-size-text-small;
+    line-height: 1;
+}
